@@ -119,3 +119,42 @@ nav ul li a {
     border: none;
     outline: none;
 }
+
+
+
+
+
+/* Styles for speakers section */
+
+.speakers-container {
+    background-color: #FFFFFF;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+    
+}
+.speakers-container h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.speakers-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+
+}
+
+.speakers-grid {
+    padding-bottom: 20px;
+}
+.speakers-grid img {
+    width: 100%;
+    height: 200px;
+    
+}
