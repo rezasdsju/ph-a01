@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Inter'; */
+}
+
+header {
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    padding: 10px 60px;
+    height: 98px;
+    
+}
+
+nav {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+   
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+    gap: 24px;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #575757;
+}
+
+
+.common-btn-container {
+    background-color: #FFFFFF;
+    padding: 4px 4px;
+    border-radius: 12px;
+    gap: 0;
+    opacity: 100%;
+
+}
+.common-btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF
+}
+
+.register-btn {
+    padding: 12px 12px;
+    gap: 12px;
+    border-radius: 10px;
+    opacity: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.hero-container {
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+
+}
+
+.hero-container h1 {
+    padding-top: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+} 
+
+
+.hero-container div {
+    max-width: 40%;
+    padding-top: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    
+} 
