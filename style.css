@@ -143,18 +143,34 @@ nav ul li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     
-    color: red;
+   
     padding-top: 20px;
     padding-bottom: 50px;
     
 
 }
 
-.speakers-grid {
+.speaker-grid {
     padding-bottom: 20px;
 }
-.speakers-grid img {
+.speaker-grid img {
     width: 100%;
     height: 200px;
     
+}
+
+/* .speaker-intro {
+} */
+
+.speaker-intro h4 {
+    color: #2563EB;
+}
+
+.speaker-intro h2 {
+    color: #0D1B2A;
+}
+
+
+.speaker-intro p {
+    color: #575757;
 }
