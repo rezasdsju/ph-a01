@@ -315,13 +315,23 @@ footer {
     background-color: #0D1B2A;
     display: flex;
     flex-direction: row;
+    height: 80px;
 }
 
 footer div {
     flex: 1;
 }
-
+.copyright-warning {
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255, 0.4)
+}
 .footer-policy-service {
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
+    padding-left: 400px;
+    gap: 50px;
+    color: rgb(255, 255, 255, 0.4)
 }
