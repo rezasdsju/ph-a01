@@ -85,12 +85,11 @@ nav ul li a {
 }  */
 
 .hero-contents {
-    padding-top: 50px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
-
 }
 .hero-contents h1 {
     color: #FFFFFF;
@@ -105,7 +104,7 @@ nav ul li a {
 }
 
 .hero-section-btn {
-    padding-top: 200px;
+    padding-top: 210px;
 }
 
 
@@ -161,8 +160,10 @@ nav ul li a {
     
 }
 
-/* .speaker-intro {
-} */
+.speaker-intro {
+    padding-left: 15px;
+    padding-top: 10px;
+}
 
 .speaker-intro h4 {
     color: #2563EB;
@@ -189,8 +190,9 @@ nav ul li a {
 .spot-pricing-heading h2 {
     text-align: center;
     color: #0D1B2A;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 .spot-pricing-heading p {
     text-align: center;
@@ -201,7 +203,7 @@ nav ul li a {
 .spot-pricing-grid-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     
     
@@ -316,6 +318,7 @@ footer {
     display: flex;
     flex-direction: row;
     height: 80px;
+    margin-top: 15px;
 }
 
 footer div {
@@ -334,4 +337,177 @@ footer div {
     padding-left: 400px;
     gap: 50px;
     color: rgb(255, 255, 255, 0.4)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shedule-container {
+    margin-top: 30px;
+    background-color: #eaf1ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
+.shedule-container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shedule-container-header h2 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.shedule-container-header h2 span{
+    color: #0e4aa5;
+}
+
+.shedule-header-text {
+    width: 55%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.day-container {
+    background-color: #a8c5e4;
+    padding: 3px 20px;
+    border: 1px solid #464d62;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.day-container ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.day-button {
+    background-color: #0a6f9d;
+    padding: 10px 45px;
+    border-radius: 6px;
+    border: 1px solid rgb(20, 181, 66);
+}
+
+.day-container ul li {
+    padding: 8px 45px;
+}
+
+
+.shedule-event-container {
+    background-color: #71aeeb;
+    display: inline;
+    border: 1px solid rgb(168, 141, 178);
+    width: 80%;
+    /* border-radius: 10px; */
+}
+
+.shedule-event-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+
+}
+
+.shedule-event-card span {
+    border-right: 1px solid rgb(21, 66, 162);
+    width: 10%;
+    color: rgb(45, 41, 41);
+    text-align: center;
+    justify-content: center;
+}
+
+
+.shedule-event-card-cell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    width: 80%;
+    
+    
+}
+
+
+
+
+
+
+.button-general {
+    background-color: #2563EB; 
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.button-keynote {
+    background-color: #7C3AED; 
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.button-networking {
+    background-color: #F59E0B; 
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.button-workshop {
+    background-color: #10B981; 
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.button-ai {
+    background-color: #EC4899; 
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.button-frontend {
+    background-color: #06B6D4; 
+    color: white;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.button-security {
+    background-color: #DC2626; 
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 10px;
+    border-radius: 4px;
 }

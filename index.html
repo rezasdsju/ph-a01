@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -65,26 +66,26 @@
             <div class="speaker-grid">
                 <img src="./assets/demis.png" alt="">
                 <div class="speaker-intro">
-                    <h4>AL/ML</h4>
-                    <h2>Andrej Karpathy</h2>
-                    <p>Pretraining Team, Antropic</p>
+                    <h4>CLOUD & DEVOPS</h4>
+                    <h2>Demis Hassabis</h2>
+                    <p>Co-Founder and CEO, Google DeepMind</p>
                 </div>
             </div>
 
-            <div class="speaker-grid">                
+            <div class="speaker-grid">
                 <img src="./assets/gary.png" alt="">
                 <div class="speaker-intro">
-                    <h4>AL/ML</h4>
-                    <h2>Andrej Karpathy</h2>
-                    <p>Pretraining Team, Antropic</p>
+                    <h4>FRONTEND</h4>
+                    <h2>Gary Marcus</h2>
+                    <p>Staff Engineer, Vercel</p>
                 </div>
             </div>
             <div class="speaker-grid">
                 <img src="./assets/mustafa.png" alt="">
                 <div class="speaker-intro">
-                    <h4>AL/ML</h4>
-                    <h2>Andrej Karpathy</h2>
-                    <p>Pretraining Team, Antropic</p>
+                    <h4>SECURITY</h4>
+                    <h2>Mustafa Suleyman</h2>
+                    <p>CEO of Microsoft AI</p>
                 </div>
             </div>
 
@@ -95,66 +96,187 @@
 
     <!--Spot Pricing section started -->
     <section class="spot-pricing-container">
-            <div class="spot-pricing-heading">
-                <h2>Secure Your Post</h2>
-                <p>Early-bird pricing ends August 15, 2026</p>
-            </div>
-            <div class="spot-pricing-grid-container">
-                <div class="spot-pricing-grid">
-                    <div>
+        <div class="spot-pricing-heading">
+            <h2>Secure Your Post</h2>
+            <p>Early-bird pricing ends August 15, 2026</p>
+        </div>
+        <div class="spot-pricing-grid-container">
+            <div class="spot-pricing-grid">
+                <div>
                     <p>STANDARD</p>
                     <p>$399</p>
                     <p>per person</p>
-                    </div>
-                    <ul>
-                        <li>Access to all 3 conference days</li>
-                        <li>48 curated technical skills</li>
-                        <li>2 workshop sessions</li>
-                        <li>Networking lunch and coffe break</li>
-                        <li>Conference swag bag</li>
-                        <li>Digital recordings(30 days)</li>
-                        <button class="get-started-btn">Get Started</button>
-                    </ul>
                 </div>
-                <div class="spot-pricing-grid second-spot-pricing-grid">
-                    <div>
+                <ul>
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical skills</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch and coffee break</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings(30 days)</li>
+                    <button class="get-started-btn">Get Started</button>
+                </ul>
+            </div>
+            <div class="spot-pricing-grid second-spot-pricing-grid">
+                <div>
                     <p>PRO</p>
                     <p>$749</p>
                     <p>per person</p>
-                    </div>
-                    <ul>
-                        <li>Everything is standard</li>
-                        <li>Unlimited workshop access</li>
-                        <li>Speaker meet and greet</li>
-                        <li>VIP Networking dinner</li>
-                        <li>Lifetime recording access</li>
-                        <li>1 on 1 mentorship (30 min)</li>
-                        <button class="pro-button">Get Pro</button>
-                    </ul>
                 </div>
-                <div class="spot-pricing-grid">
-                    <div>
+                <ul>
+                    <li>Everything is standard</li>
+                    <li>Unlimited workshop access</li>
+                    <li>Speaker meet and greet</li>
+                    <li>VIP Networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1-on-1 mentorship (30 min)</li>
+                    <button class="pro-button">Get Pro</button>
+                </ul>
+            </div>
+            <div class="spot-pricing-grid">
+                <div>
                     <p>TEAM</p>
                     <p>$5,999</p>
                     <p>up to 10 people</p>
-                    </div>
-                    <ul>
-                        <li>Everything in Pro(10 seats)</li>
-                        <li>Dedicated team lunch access</li>
-                        <li>Private Workshop Booking</li>
-                        <li>Company logo on event page</li>
-                        <li>Recruitment booth(1 day)</li>
-                        <li>Priority Customer Support</li>
-                        <button class="contact-us-btn">Contact Us</button>
-                    </ul>
                 </div>
-
+                <ul>
+                    <li>Everything in Pro(10 seats)</li>
+                    <li>Dedicated team lunch access</li>
+                    <li>Private Workshop Booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth(1 day)</li>
+                    <li>Priority Customer Support</li>
+                    <button class="contact-us-btn">Contact Us</button>
+                </ul>
             </div>
+
+        </div>
     </section>
     <!-- Pricing section end -->
 
+    <section class='shedule-container'>
+        <div class="shedule-container-header">
+            <h2>Event <span>Schedule</span></h2>
+            <div class="shedule-header-text">
+                <p>
+                    Explore insightful sessions, hands-on workshops, and keynote talks
+                    by industry leaders throughout the conference.
+                </p>
+            </div>
+        </div>
+
+        <div class="day-container">
+            <ul>
+                <button class="day-button">Day-1</button>
+                <li>Day-2</li>
+                <li>Day-3</li>
+            </ul>
+        </div>
+
+        <div class="shedule-event-container">
+
+            <div class="shedule-event-card">
+                <span>09:00 AM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-user-check"></i>
+                    <div>
+                        <h3>Registration and Welcome Coffee</h3>
+                        <p>Conference Registration Begins</p>
+                    </div>
+                </div>
+                <button class="button-general">General</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>10:00 AM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-microphone"></i>
+                    <div>
+                        <h3>Opening Keynote</h3>
+                        <p>Andrej Karpathy</p>
+                    </div>
+                </div>
+                <button class="button-keynote">Keynote</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>11:30 AM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-brain"></i>
+                    <div>
+                        <h3>AI Systems at Scale</h3>
+                        <p>Demis Hassabis</p>
+                    </div>
+                </div>
+                <button class="button-ai">AI/ML</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>01:00 PM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-users"></i>
+                    <div>
+                        <h3>Networking Lunch</h3>
+                        <p>Conference Networking Session</p>
+                    </div>
+                </div>
+                <button class="button-networking">Networking</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>02:00 PM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <div>
+                        <h3>AI Development Workshop</h3>
+                        <p>Mustafa Suleyman</p>
+                    </div>
+                </div>
+                <button class="button-workshop">Workshop</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>04:00 PM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-handshake"></i>
+                    <div>
+                        <h3>Speaker Meet & Greet</h3>
+                        <p>Gary Marcus</p>
+                    </div>
+                </div>
+                <button class="button-frontend">Frontend</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>05:00 PM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-code"></i>
+                    <div>
+                        <h3>Frontend Architecture</h3>
+                        <p>Gary Marcus</p>
+                    </div>
+                </div>
+                <button class="button-frontend">Frontend</button>
+            </div>
+
+            <div class="shedule-event-card">
+                <span>06:00 PM</span>
+                <div class="shedule-event-card-cell">
+                    <i class="fa-solid fa-utensils"></i>
+                    <div>
+                        <h3>VIP Dinner</h3>
+                        <p>Mustafa Suleyman</p>
+                    </div>
+                </div>
+                <button class="button-security">Security</button>
+            </div>
+
+        </div>
+    </section>
+
+
     <!-- Footer -->
-     <footer>
+    <footer>
         <div>
             <p class="copyright-warning">&copy; 2026 DevConf. All rights reserved</p>
         </div>
@@ -162,7 +284,7 @@
             <p>Privacy Policy</p>
             <p>Terms of Service</p>
         </div>
-     </footer>
+    </footer>
 </body>
 
 </html>
