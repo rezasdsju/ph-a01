@@ -134,28 +134,30 @@ nav ul li a {
     
 }
 .speakers-container h1 {
-    padding-top: 30px;
+    padding-top: 40px;
     text-align: center;
 }
 
 .speakers-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
     
    
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 50px;
     
 
 }
+
+
 
 .speaker-grid {
     padding-bottom: 20px;
 }
 .speaker-grid img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     
 }
 
@@ -173,4 +175,153 @@ nav ul li a {
 
 .speaker-intro p {
     color: #575757;
+}
+
+
+
+
+/* Styles for Spot Pricing Section */
+
+.spot-pricing-container {
+    background-color: #FFFFFF;
+    
+}
+.spot-pricing-heading h2 {
+    text-align: center;
+    color: #0D1B2A;
+    font-size: 48px;
+    font-weight: bold;
+}
+.spot-pricing-heading p {
+    text-align: center;
+    color: #575757;
+    font-size: 16px;
+}
+
+.spot-pricing-grid-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    
+    
+    
+
+    
+}
+
+.spot-pricing-grid {
+    margin-top: 20px;
+    border: 1px solid #E5E7EB;
+    width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.spot-pricing-grid ul {
+    border-top: 1px solid #E5E7EB;
+    width: 90%;
+    padding-top: 10px;
+
+}
+
+
+.spot-pricing-grid p:first-of-type {
+    color: #888888
+}
+
+.spot-pricing-grid p:nth-of-type(3) {
+    color: #888888;
+    font-size: 12px;
+}
+.spot-pricing-grid p:nth-of-type(2) {
+    color: #0D1B2A;
+    font-size: 25px;
+    font-weight: bold;
+}
+.spot-pricing-grid ul {
+    margin-top: 10px;
+    color: #333333;
+    font-size: 10px;
+    
+}
+.spot-pricing-grid ul li {
+    margin-bottom: 7px;
+    
+}
+.spot-pricing-grid ul li::marker {
+    color: #2563EB
+}
+.get-started-btn {
+    background-color: #FFFFFF;
+    margin-top: 14px;
+    margin-left: 16px;
+    border:1px solid #2563EB;
+    border-radius: 5px;
+    padding: 6px 60px;
+    color: #2563EB;
+   
+}
+
+
+.second-spot-pricing-grid {
+    background-color: #0D1B2A;
+}
+.second-spot-pricing-grid p:nth-of-type(1) {
+    color: #93C5FD
+}
+
+.second-spot-pricing-grid p:nth-of-type(2) {
+    color: #FFFFFF;
+}
+
+
+
+.second-spot-pricing-grid ul {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;   
+}
+
+
+.pro-button {
+    background-color: #2563EB;
+    margin-left: 20px;
+    margin-top: 16px;
+    padding: 5px 60px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+.contact-us-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px 60px;
+    border-radius: 5px;
+    border: 1px solid #0D1B2A;
+    background-color: #FFFFFF;
+    color: #0D1B2A;
+}
+
+
+
+footer {
+    background-color: #0D1B2A;
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    flex: 1;
+}
+
+.footer-policy-service {
+    display: flex;
+    flex-direction: row;
 }
