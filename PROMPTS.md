@@ -2,7 +2,7 @@ INITIAL PROMPT:
 A web page is being created about developer conference named DEVCONF 2026.  Navbar, Hero section, Speakers Section , Spot Pricing Section and Footer has already been added. Now suggest me another relevant section which may be essential for the page.
 
 SECOND PROMPT:
-Now generate the image for Event Schedule Section to use in web page of DEVCONF 2026
+Now generate the image for Event Schedule Section like figma file for web page of DEVCONF 2026
 
 
 THIRD PROMPT:
