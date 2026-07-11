@@ -415,17 +415,25 @@ footer div {
     display: inline;
     border: 1px solid rgb(168, 141, 178);
     width: 80%;
-    /* border-radius: 10px; */
+    border-radius: 8px;
 }
 
 .shedule-event-card {
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* border-radius: 10px; */
 
 }
 
+.shedule-event-card:last-child {
+    border-bottom: none;
+}
+
 .shedule-event-card span {
+    padding-top: 12px;
     border-right: 1px solid rgb(21, 66, 162);
     width: 10%;
     color: rgb(45, 41, 41);
